@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/user_info_background">
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:background="@drawable/border"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp" />
+
+    <TextView
+        android:id="@+id/spotifyNameView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_image"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/border"
+        android:backgroundTint="@color/white"
+        android:gravity="center_horizontal"
+        android:minHeight="48dp"
+        android:text="Spotify Username"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/usernameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameView"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/border"
+        android:backgroundTint="@color/white"
+        android:gravity="center_horizontal"
+        android:minHeight="48dp"
+        android:text="Username"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/nameView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spotifyNameView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/border"
+        android:backgroundTint="@color/white"
+        android:gravity="center_horizontal"
+        android:minHeight="48dp"
+        android:text="Name"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/passwordTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usernameTextView"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/border"
+        android:gravity="center_horizontal"
+        android:minHeight="48dp"
+        android:text="*******"
+        android:backgroundTint="@color/white"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:text="Back"/>
+
+    <Button
+        android:id="@+id/editButton"
+        android:layout_marginTop="16dp"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/passwordTextView"
+        android:text="Edit"/>
+
+
+
+    <Button
+        android:id="@+id/historyButton"
+        android:layout_marginTop="16dp"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/editButton"
+        android:text="History"/>
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_marginTop="16dp"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/spotifyRed"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/historyButton"
+        android:text="Delete"/>
+
+    <Button
+        android:id="@+id/signOut"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="8dp"
+        android:text="Sign Out" />
+</RelativeLayout>

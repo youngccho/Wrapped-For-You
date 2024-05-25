@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "285692236104",
+    "firebase_url": "https://spotify-2340-default-rtdb.firebaseio.com",
+    "project_id": "spotify-2340",
+    "storage_bucket": "spotify-2340.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285692236104:android:e2ee2ff44d97e0898fa37d",
+        "android_client_info": {
+          "package_name": "com.example.spotify_sdk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdCyvNMhYZUdkAlfMTwQbPwOXhfF8mLb0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
