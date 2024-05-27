@@ -12,4 +12,8 @@ This app includes:
 * Updating login information
 * Deleting user accounts
 
+### Demo 
+[Link to video](https://drive.google.com/file/d/1J7AFKyHDl_xB31IurZS2Mo7cy-mYWNtC/view)
+
 ### Main Screen
+![Wrapped](https://github.com/youngccho/Wrapped-For-You/assets/113154856/2ca213ae-dc85-47f5-842e-d2942e4df397)
